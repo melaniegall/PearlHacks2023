@@ -10,3 +10,12 @@ button {
 	font-size: 15px;
 	margin: 15px;
 }
+input[type="submit"] {
+	background: #ffffff;
+	color: #c34e4c;
+	border: 1px solid #eee;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px #eee;
+	margin: 15px;
+}
