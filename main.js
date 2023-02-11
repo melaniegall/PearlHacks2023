@@ -4,6 +4,6 @@ frog.onclick = function(){
 	if(!frog.innerhtml.includes(frog_emoji)){
 		frog.innerhtml = frog.innerhtml + frog_emoji
 	} else {
-		frog.innerhtml = “frog”
+		frog.innerhtml = 'frog'
 	}
 }
