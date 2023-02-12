@@ -14,10 +14,11 @@ function playAudio(url) {
 
 var userbday = document.getElementById("userbday");
 var partnerbday = document.getElementById("partnerbday");
-var submitbutton = document.getElementById("submitbutton")
+var submitbutton = document.getElementById("submitbutton");
+
 submitbutton.onclick = function() {
 	if(userbday.value == partnerbday.value) {
-		document.getElementById("p1").innerHTML = "Twin slayyy";
+		document.getElementById("p1").innerHTML = "You're made for each other!";
 	} else {
-		document.getElementById("p1").innerHTML = "Not twins? Ugly.";
+		document.getElementById("p1").innerHTML = "You have nothing in common. End it now. 🐸";
 	}}
