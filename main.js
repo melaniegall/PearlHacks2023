@@ -1,16 +1,7 @@
-//var yes = document.getElementById("yes");
-//var yes_emoji = "🐸"
-//yes.onclick = function() {
-//	if(yes.innerHTML.includes(yes_emoji)) {
-//		yes.innerHTML = "yes"
-//	} else {
-//		yes.innerHTML = yes.innerHTML + yes_emoji
-//	}}
-//document.appendChild(element)
 function playAudio(url) {
    new Audio(url).play();
  }
-
+//Song: George Michael, "Careless Whisper"
 
 var userbday = document.getElementById("userbday");
 var partnerbday = document.getElementById("partnerbday");
@@ -22,3 +13,5 @@ submitbutton.onclick = function() {
 	} else {
 		document.getElementById("p1").innerHTML = "You have nothing in common. End it now. 🐸";
 	}}
+
+// rat image source: https://lafeber.com/mammals/a-valentine-to-my-rats-the-greatest-species/
