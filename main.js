@@ -7,6 +7,9 @@ yes.onclick = function() {
 		yes.innerHTML = yes.innerHTML + yes_emoji
 	}}
 //document.appendChild(element)
+function playAudio(url) {
+   new Audio(url).play();
+ }
 
 
 var userbday = document.getElementById("userbday");
