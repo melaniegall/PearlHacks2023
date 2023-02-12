@@ -4,9 +4,15 @@ body {
 	text-align: center;
 	margin-top: 80px;
 }
-button {
-	background-color: #2b5a6d;
-	color: #a6e8e2;
-	font-size: 15px;
-	margin: 15px;
+a {
+	background-color: #83d5f6;
+	color: #e8f9f8;
+	font-size: 18px;
+	margin: 50px;
+}
+#input[type="submit"] {
+	background: #0d4b64;
+	color: #031716;
+	font-size: 18px;
+	margin: 50px;
 }
