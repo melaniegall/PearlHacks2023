@@ -1,37 +1,32 @@
 body {
-	background-color: #ffeae1;
-	color: #c34e4c;
+    background-image: url("patterned\ hearts.png");
+	color: #f9dbec;
 	text-align: center;
-	margin-top: 15px;
     font-size: 50px;
     font-family: "Apple Chancery", cursive;
+    margin-top: 2px;
 }
 label {
-	color: #c34e4c;
+	color: #ffffff;
 	text-align: center;
     font-size: 25px;
     font-family: "Apple Chancery", cursive;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 input[type="date"] {
-	background: #ffffff;
-	color: #c34e4c;
-	border: 1px solid #eee;
+	background: #f9dbec;
+	color: #973071;
+	border: 1px solid #f8cae5;
     border-radius: 10px;
     padding: .5rem;
     font-size: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    font-family: "Apple Chancery", cursive;
 }
 input[type="submit"] {
-	background: #ffffff;
-	color: #c34e4c;
-	border: 1px solid #eee;
+	background: #f9dbec;
+	color: #973071;
+	border: 1px solid #f8cae5;
     border-radius: 10px;
     font-size: 25px;
     padding: .5rem;
-    box-shadow: 5px 5px 5px #eee;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-family: "Apple Chancery", cursive;
 }
