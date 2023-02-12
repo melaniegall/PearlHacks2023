@@ -2,13 +2,27 @@ body {
 	background-color: #ffeae1;
 	color: #c34e4c;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 15px;
+    font-size: 50px;
+    font-family: "Apple Chancery", cursive;
 }
-button {
-	background-color: #2b5a6d;
-	color: #a6e8e2;
-	font-size: 15px;
-	margin: 15px;
+label {
+	color: #c34e4c;
+	text-align: center;
+    font-size: 25px;
+    font-family: "Apple Chancery", cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input[type="date"] {
+	background: #ffffff;
+	color: #c34e4c;
+	border: 1px solid #eee;
+    border-radius: 10px;
+    padding: .5rem;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 input[type="submit"] {
 	background: #ffffff;
@@ -16,6 +30,8 @@ input[type="submit"] {
 	border: 1px solid #eee;
     border-radius: 10px;
     font-size: 25px;
+    padding: .5rem;
     box-shadow: 5px 5px 5px #eee;
-	margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
