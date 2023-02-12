@@ -1,9 +1,12 @@
 body {
-	background-color: #ffeae1;
-	color: #c34e4c;
+    background-image: url("patterned\ hearts.png");
+	color: #f9dbec;
 	text-align: center;
-	margin-top: 80px;
+    font-size: 50px;
+    font-family: "Apple Chancery", cursive;
+    margin-top: 2px;
 }
+<<<<<<< HEAD
 a {
 	background-color: #83d5f6;
 	color: #e8f9f8;
@@ -15,4 +18,29 @@ a {
 	color: #031716;
 	font-size: 18px;
 	margin: 50px;
+=======
+label {
+	color: #ffffff;
+	text-align: center;
+    font-size: 25px;
+    font-family: "Apple Chancery", cursive;
+}
+input[type="date"] {
+	background: #f9dbec;
+	color: #973071;
+	border: 1px solid #f8cae5;
+    border-radius: 10px;
+    padding: .5rem;
+    font-size: 20px;
+    font-family: "Apple Chancery", cursive;
+}
+input[type="submit"] {
+	background: #f9dbec;
+	color: #973071;
+	border: 1px solid #f8cae5;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: .5rem;
+    font-family: "Apple Chancery", cursive;
+>>>>>>> 8632ce6cb76c5e95782c7da8ee41ef3a07b61c6e
 }
